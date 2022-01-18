@@ -18,7 +18,7 @@ body{
     gap: 5rem;
 }
 .toolbar-text{
-    color: #FFB700;
+    color: #ffb700;
 }
 .number{
     color: #FBC70E;
@@ -40,7 +40,7 @@ body{
 display: flex;
 justify-content: space-between;
 align-items: center;
-gap: 75px;
+gap: 65px;
 font-size: 20px;
 }
 .menu-lists a{
@@ -114,6 +114,9 @@ align-items: center;
     justify-content:space-evenly;
     align-items: center;
     text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-top: 5rem;
 }
 .services-block img{
     width: 184px;
@@ -127,10 +130,413 @@ align-items: center;
     padding-left: 30px;
     padding-right: 30px;
 }
-.menu4 img{
-display: flex;
+.menu4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu4 img {
+    width: 100%;
+}
+.menu4 h1{
+    text-align: center;
+  font-size: 45px; 
+  font-weight: 500;
+  white-space: nowrap; 
+}
+.section{   
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.section p{
+    margin-top: -5rem;
+    color: white;
+    font-size: 25px;
+    padding-left: 1rem;
+}
+.section img{
+    height: 300px;
+}
+.aside{
+   display: flex;
+   justify-content: space-around;
+   padding-left: 7rem;
+   padding-right: 7rem;
+   margin-top: 2rem;
+}
+.aside img{
+    height: 300px;
+}
+.aside p{
+    margin-top: -5rem;
+    color: white;
+    font-size: 25px;
+    padding-left: 1rem;
+}
+.btn button{
+    margin-top: 3rem;
+    cursor: pointer;
+    padding: 10px 7rem;
+    background-color: #65256F;
+color: white;
+font-size: 25px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 3rem;
+}
+.inner h1{
+    text-align: center;
+    font-size: 45px; 
+    font-weight: 500;
+    white-space: nowrap;
+}
+.inner img{
+    width: 100%;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7rem;
+    padding-right: 6.5rem;
+}
+.pic img{
+    height: 300px;
+}
+.widget{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.widget img{
+    width: 100%;
+}
+.widget h1{
+text-align: center;
+white-space: nowrap;
+font-size: 45px;
+font-weight: 500;
+}
+.holder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.holder h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.holder h2{
+    color: #4C1F8C;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.sidebar h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar h2{
+    color: #4C1F8C;
+}
+.control{
+    display: flex;
+    justify-content: center; 
+    margin-top: 1rem;
+    align-items: center;
+}
+.control button{
+    padding: 10px 8rem;
+    background-color: #65256F;
+    cursor: pointer;
+color: white;
+font-size: 15px;
+border: none;
+text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page img{
+    width: 100%;
+}
+.page h1{
+    text-align: center;
+    white-space: nowrap;
+    font-size: 45px;
+    font-weight: 500;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7rem;
+    padding-right: 6rem;
+}
+.meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meta img{
+    width: 100%;
+}
+.meta h2{
+    font-size: 45px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.pending{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.pending h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+.pending p{
+    font-size: 30px;
+color: #4d4d4d;
+margin-top: 3rem;
+}
+.slogan h1{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+.slogan p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #585858;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.box input{
+    padding-left: 10rem;
+    padding: 15px 70px;
+    box-shadow: 0 0 19px rgba( 0, 0, 0,0.1 );
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: #65256F;
+}
+.second {
+ background-image: url(../img/Rectangle\ 139\ wqe.png);
+ height: 40vh;
+ margin-top: 5rem;
+ display: flex;
+ justify-content: space-evenly;
+}
+.second div{
+    margin-top: 3rem;
+    color: white;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;   
+}
+.second p{
+    align-items: center;
+    text-align: start;
+    color: #BCBBBB;
+}
+.second li{
+    align-items: center;
+    margin-top: 1rem;
+    list-style: none;
+    font-size: 22px;
+}
+.second a{
+    color: #BCBBBB;
+    text-decoration: none;
+}
+.dear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dear img{
+    width: 100%;
+}
+.dear p{
+    white-space: nowrap;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+.seul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: center;
+}
+.seul p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 7rem;
+    padding-right: 40rem;
+    flex-wrap: wrap;
+}
+.header{
+   display: flex;
+   justify-content: space-around;
+   padding-left: 8rem;
+   padding-right: 8rem;
+   gap: 2rem;
+}
+.picture{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.thumb{
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+.images{
+    display: flex;
 justify-content: space-between;
 align-items: center;
 }
+.images p{
+    text-align: center;
+  font-size: 45px; 
+  font-weight: 500;
+  white-space: nowrap; 
+}
+.images img{
+    width: 100%;
+}
+.lorem{
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: #4C4C54;
+    font-size: 18px;
+    font-weight: 400;
+}
+.excert{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.excert h1{
+    text-align: center;
+    font-size: 45px; 
+    font-weight: 500;
+    white-space: nowrap; 
+}
+.excert img{
+    width: 100%;
+}
+.bodyp{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    text-align: center;
+}
+.bodyp p{
+    font-size:20px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: center;
+    align-items: center;
+}
+@media (max-width: 480px) {
+    .toolbar{
+        padding: 0%;
+        display: flex;
+        align-items: center;
+    }
+    .toolbar-text{
+        font-size: 10px;
+    }
+    .toolbar-a p{
+      display: none;
+    }
+    .number{
+        font-size: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    .content{
+     padding: 0%;
+     display: block;
+     text-align: center;
+     align-items: center;
+     gap: 20px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .icons{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+.services img{
+    width: 130px;
+}
+.services h1{
+    font-size: 30px;
+}
+.services-blocks{
+    padding: 0%;
+    display: block;
+}
+.menu4 img{
+width: 130px;
+}
+.menu4 h1{
+    font-size: 30px;
+}
+.section{
+    padding: 0%;
+    display: block;
+}
 
 
+
+
+
+
+}
