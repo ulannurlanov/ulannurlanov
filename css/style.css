@@ -532,11 +532,90 @@ width: 130px;
 .section{
     padding: 0%;
     display: block;
+    text-align: center;
 }
-
-
-
-
+.section img{
+    margin-top: 10px;
+}
+.aside{
+    padding: 0%;
+    display: block;
+    margin:0%;
+    text-align: center;
+}
+.aside img{
+    margin-top: 3rem;
+}
+.inner img{
+    padding: 0%;
+    width: 100px;
+}
+.inner h1{
+    font-size: 30px;
+    text-align: center;
+}
+.pic{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.widget img{
+ width: 140px;
+}
+.widget h1{
+    font-size: 20px;
+}
+.holder{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.sidebar{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.page img{
+    width: 130px;
+}
+.page h1{
+    font-size: 20px
+}
+.dropdown{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.meta img{
+    width: 110px;
+}
+.meta h2{
+    font-size: 20px;
+}
+.pending{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.slogan{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.box{
+    padding: 0%;
+    display: block;
+    text-align: center;
+}
+.second{
+    padding: 0%;
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+.second p{
+    text-align: center;
+}
 
 
 }
